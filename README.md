@@ -20,6 +20,8 @@ Poll Sender is a simple Python script that automates sending polls on WhatsApp W
 2. Clone this repository:
    ```sh
    git clone https://github.com/Zakka24/poll-sender.git
+   ```
+   ```sh
    cd poll-sender
    ```
 3. Install dependencies:
