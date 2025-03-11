@@ -27,11 +27,8 @@ Poll Sender is a simple Python script that automates sending polls on WhatsApp W
    ```
 3. Download and install [ChromeDriver](https://chromedriver.chromium.org/downloads) matching your Chrome version.
 4. Ensure the correct path for the WhatsApp session directory:
-   - Modify the script to set the correct path for `user-data-dir`.
-   - Or create the necessary folder manually at the specified path.
-   ```python
-   options.add_argument("user-data-dir=/Users/zakariaaoukaili/Desktop/WhatsApp Session")
-   ```
+   - Modify the script to set the correct path for `user-data-dir` in line 13.
+   - You can just comment line 13 and the script will still work correctly, but you have the scan the qr code every time you run the script
 
 ## Usage
 1. Ensure Google Chrome is installed and ChromeDriver is set up correctly.
