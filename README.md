@@ -15,7 +15,7 @@ Poll Sender is a simple Python script that automates sending polls on WhatsApp W
 - Google Chrome
 - ChromeDriver (matching your Chrome version)
 
-## Installation (For macOs, Linux)
+## Installation
 1. Open your terminal
 2. Clone this repository:
    ```sh
