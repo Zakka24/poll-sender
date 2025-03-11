@@ -15,18 +15,19 @@ Poll Sender is a simple Python script that automates sending polls on WhatsApp W
 - Google Chrome
 - ChromeDriver (matching your Chrome version)
 
-## Installation
-1. Clone this repository:
+## Installation (For macOs, Linux)
+1. Open your terminal
+2. Clone this repository:
    ```sh
-   git clone https://github.com/yourusername/poll-sender.git
+   git clone https://github.com/Zakka24/poll-sender.git
    cd poll-sender
    ```
-2. Install dependencies:
+3. Install dependencies:
    ```sh
    pip install selenium webdriver-manager
    ```
-3. Download and install [ChromeDriver](https://chromedriver.chromium.org/downloads) matching your Chrome version.
-4. Ensure the correct path for the WhatsApp session directory:
+4. Download and install [ChromeDriver](https://chromedriver.chromium.org/downloads) matching your Chrome version.
+5. Ensure the correct path for the WhatsApp session directory:
    - Modify the script to set the correct path for `user-data-dir` in line 13.
    - You can just comment line 13 and the script will still work correctly, but you have the scan the qr code every time you run the script
 
