@@ -1,7 +1,7 @@
 # Poll Sender
 
 ## Description
-Pool Sender is a simple Python script that automates sending polls on WhatsApp Web. It opens WhatsApp Web, navigates to a specified group, and sends two predefined polls. This script was created to help organize our office's car schedule efficiently.
+Poll Sender is a simple Python script that automates sending polls on WhatsApp Web. It opens WhatsApp Web, navigates to a specified group, and sends two predefined polls. This script was created to help organize our office's car schedule efficiently.
 
 ## Features
 - Automatically opens WhatsApp Web
@@ -23,9 +23,15 @@ Pool Sender is a simple Python script that automates sending polls on WhatsApp W
    ```
 2. Install dependencies:
    ```sh
-   pip install -r requirements.txt
+   pip install selenium webdriver-manager
    ```
 3. Download and install [ChromeDriver](https://chromedriver.chromium.org/downloads) matching your Chrome version.
+4. Ensure the correct path for the WhatsApp session directory:
+   - Modify the script to set the correct path for `user-data-dir`.
+   - Or create the necessary folder manually at the specified path.
+   ```python
+   options.add_argument("user-data-dir=/Users/zakariaaoukaili/Desktop/WhatsApp Session")
+   ```
 
 ## Usage
 1. Ensure Google Chrome is installed and ChromeDriver is set up correctly.
@@ -38,4 +44,6 @@ Pool Sender is a simple Python script that automates sending polls on WhatsApp W
 ## Configuration
 - Modify the script to change the target group name.
 - Adjust the predefined polls in the script if needed.
+
+
 
